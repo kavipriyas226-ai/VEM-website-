@@ -1,22 +1,24 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Reveal from './Reveal.jsx';
 import OrnamentDivider from './OrnamentDivider.jsx';
+import weddingImage from '../../images/Wedding/Wedding.jpeg';
+import birthdayBalloonImage from '../../images/Birthday/Birthday Balloon decor.jpeg';
+import birthdayEntranceImage from '../../images/Birthday/Birthday Entrance Arch.jpeg';
+import corporateImage from '../../images/Corporate/Corporate events.jpeg';
+import babyshowerImage from '../../images/Babyshower/Babyshower.jpeg';
+import babyshowerSecondImage from '../../images/Babyshower/Babyshowerr.jpeg';
+import babyshowerThirdImage from '../../images/Babyshower/Babyshowerrr.jpeg';
 
-const FILTERS = ['All', 'Weddings', 'Engagements', 'Birthdays', 'Corporate', 'Décor'];
+const FILTERS = ['All', 'Weddings', 'Birthdays', 'Corporate', 'Baby showers' ];
 
 const IMAGES = [
-  { src: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=900&auto=format&fit=crop', category: 'Weddings', title: 'Mandap Styling, Udaipur' },
-  { src: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=900&auto=format&fit=crop', category: 'Engagements', title: 'Ring Ceremony Décor' },
-  { src: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=900&auto=format&fit=crop', category: 'Birthdays', title: 'Milestone Birthday Setup' },
-  { src: 'https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=900&auto=format&fit=crop', category: 'Corporate', title: 'Brand Launch Evening' },
-  { src: 'https://images.unsplash.com/photo-1478146059778-26028b07395a?q=80&w=900&auto=format&fit=crop', category: 'Décor', title: 'Floral Centrepiece Design' },
-  { src: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=900&auto=format&fit=crop', category: 'Weddings', title: 'Reception Head Table' },
-  { src: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=900&auto=format&fit=crop', category: 'Birthdays', title: 'Garden Party Styling' },
-  { src: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=900&auto=format&fit=crop', category: 'Weddings', title: 'Bridal Entrance Aisle' },
-  { src: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=900&auto=format&fit=crop', category: 'Corporate', title: 'Conference Stage Design' },
-  { src: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=900&auto=format&fit=crop', category: 'Décor', title: 'Lounge Styling Detail' },
-  { src: 'https://images.unsplash.com/photo-1478146896981-b80fe463b330?q=80&w=900&auto=format&fit=crop', category: 'Engagements', title: 'Candlelit Engagement Table' },
-  { src: 'https://images.unsplash.com/photo-1546032996-6098e9b4869d?q=80&w=900&auto=format&fit=crop', category: 'Weddings', title: 'Evening Reception Lighting' },
+  { src: weddingImage, category: 'Weddings', title: 'Weddings , CSI Church, Hasthampatti, Salem' },
+  { src: birthdayBalloonImage, category: 'Birthdays', title: 'Birthday Balloon Decor , CSI Church,Old Bustand, Salem' },
+  { src: birthdayEntranceImage, category: 'Birthdays', title: 'Birthday Entrance Arch , CSI Church,Old Bustand, Salem' },
+  { src: corporateImage, category: 'Corporate', title: 'Corporate Events , Shevapet,Salem' },
+  { src: babyshowerImage, category: 'Baby showers', title: 'Baby Shower Celebration , Ratna Residency, 3Roads, salem' },
+  { src: babyshowerSecondImage, category: 'Baby showers', title: 'Baby Shower Decor , Erumapalayam Salem' },
+  { src: babyshowerThirdImage, category: 'Baby showers', title: 'Baby Shower Setup , Thaaramangalam Salem' },
 ];
 
 export default function Gallery() {

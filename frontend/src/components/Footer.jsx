@@ -77,9 +77,9 @@ export default function Footer() {
         <div className="footer__col">
           <h4>Contact</h4>
           <ul className="footer__contact">
-            <li>Chennai Road, Madurai, Tamil Nadu, India</li>
-            <li>+91 12345 67890</li>
-            <li>hello@vishesha.events</li>
+            <li>64, 3rd cross narayana nagar, kitchipalayam, salem, 636015, Tamil Nadu, India</li>
+            <li>+91 63858 29303</li>
+            <li>vishesha.events@gmail.com</li>
             <li>Mon &ndash; Sat, 10am &ndash; 7pm</li>
           </ul>
         </div>

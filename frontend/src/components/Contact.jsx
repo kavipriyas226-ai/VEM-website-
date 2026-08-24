@@ -3,9 +3,9 @@ import Reveal from './Reveal.jsx';
 import OrnamentDivider from './OrnamentDivider.jsx';
 
 const CONTACT_DETAILS = [
-  { label: 'Visit Us', value: 'Chennai Road, Madurai, Tamil Nadu, India' },
-  { label: 'Call Us', value: '+91 12345 67890', href: 'tel:+911234567890' },
-  { label: 'Email Us', value: 'hello@vishesha.events', href: 'mailto:hello@vishesha.events' },
+  { label: 'Visit Us', value: '64, 3rd cross narayana nagar, kitchipalayam, salem, 636015, Tamil Nadu, India' },
+  { label: 'Call Us', value: '+91 63858 29303', href: 'tel:+916385829303' },
+  { label: 'Email Us', value: 'vishesha.events@gmail.com', href: 'mailto:vishesha.events@gmail.com' },
   { label: 'Working Hours', value: 'Monday - Saturday, 10am - 7pm' },
 ];
 

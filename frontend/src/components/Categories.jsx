@@ -1,14 +1,16 @@
 import React from 'react';
 import Reveal from './Reveal.jsx';
 import OrnamentDivider from './OrnamentDivider.jsx';
+import weddingImage from '../../images/Wedding/Wedding.jpeg';
+import corporateImage from '../../images/Corporate/Corporate events.jpeg';
+import birthdayBalloonImage from '../../images/Birthday/Birthday Balloon decor.jpeg';
+import babyshowerSecondImage from '../../images/Babyshower/Babyshowerr.jpeg';
 
 const CATEGORIES = [
-  { name: 'Weddings', img: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Engagements', img: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Birthdays', img: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Corporate Events', img: 'https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Receptions', img: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Baby Showers', img: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=800&auto=format&fit=crop' },
+  { name: 'Weddings', img: weddingImage },
+  { name: 'Birthdays', img: birthdayBalloonImage },
+  { name: 'Corporate Events', img: corporateImage },
+  { name: 'Baby Showers', img: babyshowerSecondImage },
 ];
 
 export default function Categories() {

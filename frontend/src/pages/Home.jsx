@@ -10,7 +10,6 @@ import WhyChooseUs from '../components/WhyChooseUs.jsx';
 import FAQ from '../components/FAQ.jsx';
 import Contact from '../components/Contact.jsx';
 import Footer from '../components/Footer.jsx';
-import FloatingActions from '../components/FloatingActions.jsx';
 
 export default function Home() {
   return (
@@ -28,7 +27,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-      <FloatingActions />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import OrnamentDivider from './OrnamentDivider.jsx';
+import headerImage from '../../images/header image.jpeg';
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false);
@@ -16,15 +17,15 @@ export default function Hero() {
 
   return (
     <section id="home" className="hero">
-      <div className="hero__bg" />
+      <div className="hero__bg" style={{ backgroundImage: `url("${headerImage}")` }} />
       <div className="hero__overlay" />
 
       <div className={`hero__content ${mounted ? 'is-in' : ''}`}>
         <p className="hero__eyebrow">Vishesha Event Management</p>
         <h1 className="hero__headline">
-          Creating Moments.
+          We Don’t Convince You.
           <br />
-          <em>Curating Memories.</em>
+          <em> We Understand You.</em>
         </h1>
         <OrnamentDivider tone="cream" />
         <p className="hero__sub">

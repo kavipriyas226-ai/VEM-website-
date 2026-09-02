@@ -2,15 +2,17 @@ import React from 'react';
 import Reveal from './Reveal.jsx';
 import OrnamentDivider from './OrnamentDivider.jsx';
 import weddingImage from '../../images/Wedding/Wedding.jpeg';
-import corporateImage from '../../images/Corporate/Corporate events.jpeg';
-import birthdayBalloonImage from '../../images/Birthday/Birthday Balloon decor.jpeg';
-import babyshowerSecondImage from '../../images/Babyshower/Babyshowerr.jpeg';
+import corporateImage from '../../images/Corporate/image 1.jpeg';
+import birthdayImage from '../../images/Birthday/image 1.jpeg';
+import babyshowerImage from '../../images/Babyshower/image 1.jpeg';
+import homeDecorImage from '../../images/home decor/image 1.jpeg';
 
 const CATEGORIES = [
   { name: 'Weddings', img: weddingImage },
-  { name: 'Birthdays', img: birthdayBalloonImage },
+  { name: 'Birthdays', img: birthdayImage },
   { name: 'Corporate Events', img: corporateImage },
-  { name: 'Baby Showers', img: babyshowerSecondImage },
+  { name: 'Baby Showers', img: babyshowerImage },
+  { name: 'Home Decor', img: homeDecorImage },
 ];
 
 export default function Categories() {

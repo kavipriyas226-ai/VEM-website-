@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import logoMark from '../../images/LOGO-transparent.png';
+import logoName from '../../images/Logo name-transparent.png';
 
 const LINKS = [
   { label: 'Home', href: '#home' },
@@ -41,8 +43,8 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--solid' : ''} ${open ? 'navbar--open' : ''}`}>
       <div className="navbar__inner">
         <a href="#home" className="navbar__brand" onClick={(e) => handleNavClick(e, '#home')}>
-          <span className="navbar__brand-name">Vishesha</span>
-          <span className="navbar__brand-sub">Event Management</span>
+          <img className="navbar__brand-mark" src={logoMark} alt="" />
+          <img className="navbar__brand-name-image" src={logoName} alt="Vishesha Event Management" />
         </a>
 
         <nav className="navbar__links" aria-label="Primary">

@@ -78,7 +78,8 @@ export default function Footer() {
           <h4>Contact</h4>
           <ul className="footer__contact">
             <li>64, 3rd cross narayana nagar, kitchipalayam, salem, 636015, Tamil Nadu, India</li>
-            <li>+91 63858 29303</li>
+            <li><a href="tel:+916385829303">+91 63858 29303</a></li>
+            <li><a href="tel:+919025379428">+91 90253 79428</a></li>
             <li>vishesha.events@gmail.com</li>
             <li>Mon &ndash; Sat, 10am &ndash; 7pm</li>
           </ul>

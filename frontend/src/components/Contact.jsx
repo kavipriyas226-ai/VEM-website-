@@ -4,8 +4,13 @@ import OrnamentDivider from './OrnamentDivider.jsx';
 
 const CONTACT_DETAILS = [
   { label: 'Visit Us', value: '64, 3rd cross narayana nagar, kitchipalayam, salem, 636015, Tamil Nadu, India' },
-  { label: 'Call Us', value: '+91 63858 29303', href: 'tel:+916385829303' },
-  { label: 'Call Us', value: '+91 90253 79428', href: 'tel:+919025379428' },
+  {
+    label: 'Call Us',
+    phones: [
+      { value: '+91 63858 29303', href: 'tel:+916385829303' },
+      { value: '+91 90253 79428', href: 'tel:+919025379428' },
+    ],
+  },
   { label: 'Email Us', value: 'md.visheshaweddingandevents@gmail.com', href: 'mailto:md.visheshaweddingandevents@gmail.com' },
   { label: 'Working Hours', value: 'Monday - Saturday, 10am - 7pm' },
 ];
@@ -27,7 +32,16 @@ export default function Contact() {
           {CONTACT_DETAILS.map((detail) => (
             <div className="contact__detail" key={detail.label}>
               <span className="contact__detail-label">{detail.label}</span>
-              {detail.href ? (
+              {detail.phones ? (
+                <span className="contact__detail-value">
+                  {detail.phones.map((phone, index) => (
+                    <React.Fragment key={phone.href}>
+                      {index > 0 && ', '}
+                      <a href={phone.href}>{phone.value}</a>
+                    </React.Fragment>
+                  ))}
+                </span>
+              ) : detail.href ? (
                 <a href={detail.href} className="contact__detail-value">
                   {detail.value}
                 </a>

@@ -36,15 +36,13 @@ export default function Footer() {
             across India.
           </p>
           <div className="footer__socials">
-            <a href="https://instagram.com/vishesha.events" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              IG
+            <a href="https://www.instagram.com/vishesha_wedding_and_events?igsi=ZDJmYzFwczlwMzRv" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              INSTA
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               FB
             </a>
-            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
-              PN
-            </a>
+          
           </div>
         </div>
 

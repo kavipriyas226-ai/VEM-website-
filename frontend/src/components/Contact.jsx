@@ -5,7 +5,8 @@ import OrnamentDivider from './OrnamentDivider.jsx';
 const CONTACT_DETAILS = [
   { label: 'Visit Us', value: '64, 3rd cross narayana nagar, kitchipalayam, salem, 636015, Tamil Nadu, India' },
   { label: 'Call Us', value: '+91 63858 29303', href: 'tel:+916385829303' },
-  { label: 'Email Us', value: 'vishesha.events@gmail.com', href: 'mailto:vishesha.events@gmail.com' },
+  { label: 'Call Us', value: '+91 90253 79428', href: 'tel:+919025379428' },
+  { label: 'Email Us', value: 'md.visheshaweddingandevents@gmail.com', href: 'mailto:md.visheshaweddingandevents@gmail.com' },
   { label: 'Working Hours', value: 'Monday - Saturday, 10am - 7pm' },
 ];
 

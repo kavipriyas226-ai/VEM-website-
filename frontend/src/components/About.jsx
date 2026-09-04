@@ -4,9 +4,9 @@ import OrnamentDivider from './OrnamentDivider.jsx';
 import Counter from './Counter.jsx';
 
 const STATS = [
-  { value: 100, suffix: '+', label: 'Events Delivered' },
-  { value: 50, suffix: '+', label: 'Happy Clients' },
-  { value: 5, suffix: '+', label: 'Years of Experience' },
+  { value: 20, suffix: '+', label: 'Events Delivered' },
+  { value: 15, suffix: '+', label: 'Happy Clients' },
+  { value: 1, suffix: '+', label: 'Years of Experience' },
   { value: 100, suffix: '%', label: 'Commitment' },
 ];
 

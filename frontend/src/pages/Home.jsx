@@ -5,7 +5,6 @@ import Categories from '../components/Categories.jsx';
 import About from '../components/About.jsx';
 import Services from '../components/Services.jsx';
 import Gallery from '../components/Gallery.jsx';
-import Packages from '../components/Packages.jsx';
 import WhyChooseUs from '../components/WhyChooseUs.jsx';
 import FAQ from '../components/FAQ.jsx';
 import Contact from '../components/Contact.jsx';
@@ -21,7 +20,6 @@ export default function Home() {
         <About />
         <Services />
         <Gallery />
-        <Packages />
         <WhyChooseUs />
         <FAQ />
         <Contact />
